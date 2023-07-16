@@ -1,5 +1,5 @@
 
-@import url('/css/estilosGlobales.css'); 
+@import url('estilosGlobales.css'); 
 
 
 body{
@@ -98,32 +98,32 @@ h1{
         background-image:  linear-gradient(
             rgba(44, 44, 44, 0.445),
             rgba(44, 44, 44, 0.664)
-        ),url('/img/fotos-galeria/pexels-man-dy-1136888.jpg');
+        ),url('../img/fotos-galeria/pexels-man-dy-1136888.jpg');
     }
     20%,39%{
         background-image:  linear-gradient(
             rgba(44, 44, 44, 0.445),
             rgba(44, 44, 44, 0.664)
-        ),url('/img/fotos-galeria/pexels-negative-space-48601.jpg');
+        ),url('../img/fotos-galeria/pexels-negative-space-48601.jpg');
     }
     40%,59%{
         background-image:  linear-gradient(
             rgba(44, 44, 44, 0.445),
             rgba(44, 44, 44, 0.664)
-        ),url('/img/fotos-galeria/pexels-skylar-kang-6207449.jpg');
+        ),url('../img/fotos-galeria/pexels-skylar-kang-6207449.jpg');
     }
     60%,89%{
         background-image:  linear-gradient(
             rgba(44, 44, 44, 0.445),
             rgba(44, 44, 44, 0.664)
-        ),url('/img/fotos-galeria/pexels-ylanite-koppens-2820119.jpg');
+        ),url('../img/fotos-galeria/pexels-ylanite-koppens-2820119.jpg');
 
     }
     90%,100%{
         background-image:  linear-gradient(
             rgba(44, 44, 44, 0.445),
             rgba(44, 44, 44, 0.664)
-        ),url('/img/fotos-galeria/pexels-ruandom-zhong-7619385 (1).jpg');
+        ),url('../img/fotos-galeria/pexels-ruandom-zhong-7619385 (1).jpg');
 
     }
 
@@ -213,7 +213,7 @@ footer{
     background-image: linear-gradient(
         rgba(44, 44, 44, 0.575),
         rgba(44, 44, 44, 0.664)
-    ), url('/img/orchids-4468051_1280 (1).jpg');
+    ), url('../img/orchids-4468051_1280 (1).jpg');
     width: 100%;
     height: 350px;
 }

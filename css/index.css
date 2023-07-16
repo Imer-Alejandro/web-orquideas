@@ -1,5 +1,5 @@
 
-@import url('/css/estilosGlobales.css'); 
+@import url('estilosGlobales.css'); 
 
 
 body{
@@ -84,7 +84,7 @@ header{
         background-image: linear-gradient(
             rgba(25, 31, 56, 0.548),
             rgba(23, 28, 49, 0.623)
-        ), url('/img/0c1a3fa0a5a26623731548c7b5afff7c (1).jpeg');
+        ), url('../img/0c1a3fa0a5a26623731548c7b5afff7c (1).jpeg');
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -162,7 +162,7 @@ h1{
      background-repeat: no-repeat;
      background-position: center;
      background-size: 100% ;
-     background-image: url('/img/pexels-eva-bronzini-6495838 (1).jpg');
+     background-image: url('../img/pexels-eva-bronzini-6495838 (1).jpg');
 }
 
 
@@ -327,7 +327,7 @@ footer{
     background-image: linear-gradient(
         rgba(44, 44, 44, 0.575),
         rgba(44, 44, 44, 0.664)
-    ), url('/img/orchids-4468051_1280 (1).jpg');
+    ), url('../img/orchids-4468051_1280 (1).jpg');
     width: 100%;
     height: 350px;
 }
@@ -394,17 +394,17 @@ footer li{
   }
 
   .card_1{
-    background-image: url('/img/orquideas_divulgacao (1).jpg');
+    background-image: url('../img/orquideas_divulgacao (1).jpg');
 
   }
 
   .card_2{
-    background-image: url('/img/servicio-cultivo.jpg');
+    background-image: url('../img/servicio-cultivo.jpg');
 
   }
 
   .card_3{
-    background-image: url('/img/011e88ef4a8328e08be9d913808b8290_M.jpg');
+    background-image: url('../img/011e88ef4a8328e08be9d913808b8290_M.jpg');
   }
 
   
