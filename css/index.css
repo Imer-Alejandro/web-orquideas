@@ -357,6 +357,7 @@ footer li{
     justify-content: center;
     margin-bottom: 20px;
     padding-bottom: 10px;
+    padding-right: 2%;
 
     text-align: center;
 }
@@ -371,7 +372,7 @@ footer li{
 .card {
     margin-top: 60px;
     margin-bottom: 20px;
-    margin-left: 50px;
+    margin-left: 40px;
     cursor: pointer;
     position: relative;
     width: 350px;
@@ -559,7 +560,7 @@ footer li{
     }
 
     .valores{
-        margin-bottom: -80px;
+        margin-bottom: -100px;
         height: 900px;
     }
 
