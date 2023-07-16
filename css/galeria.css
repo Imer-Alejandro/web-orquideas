@@ -1,0 +1,321 @@
+
+@import url('/css/estilosGlobales.css'); 
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{ 
+    z-index: 6;
+    position: fixed;
+    padding-top: 10px;
+    padding-left: 1%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.678);
+    backdrop-filter: blur(10px);
+
+}
+
+a{
+    text-decoration: none;
+}
+
+nav h2{
+    font-family: 'Zeyada', cursive;
+    color: #B4BEC9;
+    letter-spacing: 1.3px;
+    margin-top: 7px;
+    margin-left: 50px;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.438);
+    font-size: 2.1rem;
+}
+
+nav img{
+    width: 50px;
+    position: absolute;
+}
+
+
+nav ul li a{
+    color: black;
+}
+nav ul {
+    margin-top: -75px;
+    margin-left: 60%;
+}
+
+nav ul li{
+    letter-spacing: 1px;
+    margin-right:60px ;
+    list-style: none;
+    font-size: 1.3rem;
+    display: inline-block;
+
+}
+
+nav ul li button{
+    font-size: 1rem;
+    letter-spacing: 1.2px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 150px;
+    border: 1px solid grey;
+    background-color: transparent;
+    height: 40px;
+}
+
+
+header{
+    z-index: 2;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    padding-top: 20vh;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    animation: carrucer 20s infinite  linear  ;
+
+}
+
+h1{
+    font-size: 5rem;color: white;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.664);
+}
+
+@keyframes carrucer {
+    0%,19%{
+        background-image:  linear-gradient(
+            rgba(44, 44, 44, 0.445),
+            rgba(44, 44, 44, 0.664)
+        ),url('/img/fotos-galeria/pexels-man-dy-1136888.jpg');
+    }
+    20%,39%{
+        background-image:  linear-gradient(
+            rgba(44, 44, 44, 0.445),
+            rgba(44, 44, 44, 0.664)
+        ),url('/img/fotos-galeria/pexels-negative-space-48601.jpg');
+    }
+    40%,59%{
+        background-image:  linear-gradient(
+            rgba(44, 44, 44, 0.445),
+            rgba(44, 44, 44, 0.664)
+        ),url('/img/fotos-galeria/pexels-skylar-kang-6207449.jpg');
+    }
+    60%,89%{
+        background-image:  linear-gradient(
+            rgba(44, 44, 44, 0.445),
+            rgba(44, 44, 44, 0.664)
+        ),url('/img/fotos-galeria/pexels-ylanite-koppens-2820119.jpg');
+
+    }
+    90%,100%{
+        background-image:  linear-gradient(
+            rgba(44, 44, 44, 0.445),
+            rgba(44, 44, 44, 0.664)
+        ),url('/img/fotos-galeria/pexels-ruandom-zhong-7619385 (1).jpg');
+
+    }
+
+}
+
+
+.galeria img{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+
+.column img{
+    margin-top: 5px;
+}
+
+@media (max-width: 800px){
+    .column{
+        flex: 50%;
+    }
+}
+
+@media (max-width: 600px){
+    .column{
+        flex: 100%;
+    }
+}
+
+
+
+
+
+.registro{
+    padding-top:50px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #fdfdfd;
+
+    margin-top: 200px;
+    width: 100%;
+    height: 400px;
+}
+
+.registro h3{
+    color: rgb(65, 65, 65);
+    font-size: 3rem;
+}
+
+.registro input{
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border: 0px;
+
+    margin-top: 20px;
+}
+
+.registro button{
+    width: 100px;
+    height: 30px;
+    outline: none;
+    border: 0px;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: #FFCB9A;    
+}
+
+
+footer{
+    padding-top: 30px;
+    background-attachment: fixed;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  cover;
+    background-image: linear-gradient(
+        rgba(44, 44, 44, 0.575),
+        rgba(44, 44, 44, 0.664)
+    ), url('/img/orchids-4468051_1280 (1).jpg');
+    width: 100%;
+    height: 350px;
+}
+footer img{
+    margin-bottom: -60px;
+}
+
+footer h3{
+    text-shadow: 0px 0px 2px black;
+    color:white ;
+    font-size: 3rem;
+    letter-spacing: 1.5px;
+    font-family: 'Zeyada', cursive;
+}
+
+footer li{
+    font-family: 'Quicksand', sans-serif;
+    color:#B4BEC9 ;
+}
+
+
+
+
+  
+/*menu desplehable*/
+.burger {
+    
+    margin-left: 85%;
+    margin-top: -75px;
+    position: relative;
+    width: 40px;
+    height: 30px;
+    background: transparent;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .burger input {
+    display: none;
+  }
+  
+  .burger span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: black;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+  }
+  
+  .burger span:nth-of-type(1) {
+    top: 0px;
+    transform-origin: left center;
+  }
+  
+  .burger span:nth-of-type(2) {
+    top: 50%;
+    transform: translateY(-50%);
+    transform-origin: left center;
+  }
+  
+  .burger span:nth-of-type(3) {
+    top: 100%;
+    transform-origin: left center;
+    transform: translateY(-100%);
+  }
+  
+  .burger input:checked ~ span:nth-of-type(1) {
+    transform: rotate(45deg);
+    top: 0px;
+    left: 5px;
+  }
+  
+  .burger input:checked ~ span:nth-of-type(2) {
+    width: 0%;
+    opacity: 0;
+  }
+  
+  .burger input:checked ~ span:nth-of-type(3) {
+    transform: rotate(-45deg);
+    top: 28px;
+    left: 5px;
+  }
+
+
+
+
+
+@media screen and (max-width:1000px) {
+    .menu{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+
+    
+  }
+
+
+

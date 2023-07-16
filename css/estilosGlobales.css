@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300&family=Quicksand&family=Zeyada&display=swap');
+h1{
+    font-family: 'Zeyada', cursive;
+}
+
+a{
+    text-decoration: none;
+}
+h3,h2{
+    font-family: 'Dancing Script', cursive;
+}
+
+span,a{
+    font-family: 'Quicksand', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+/*estilo menu plegable*/
+.menu_plegable{
+    display: none;
+    text-align: left;
+    width: 150px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.678);
+    backdrop-filter: blur(10px);
+    z-index: 6;
+    position: fixed;
+    margin-left: 70%;
+    border: 1px solid rgba(255, 255, 255, 0.651);
+    margin-top: 90px;
+    border-radius: 5px;
+}
+
+.menu_plegable ul{
+    box-sizing: border-box;
+    height: 100%;
+    padding-top: 10px;
+    width: 100%;
+    margin-left: -20px;
+}
+
+.menu_plegable ul li{
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.menu_plegable ul li a{
+    color: black;
+}
+
+.menu_plegable ul li button{
+    font-size: 1rem;
+    letter-spacing: 1.2px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100px;
+    border: 1px solid grey;
+    background-color: transparent;
+    height: 40px;
+}
+
+/*web response */
+
+
+@media screen and (max-width:1300px) {
+    
+    
+    .menu{
+        margin-right: 10px;
+        margin-left: 20%;
+        text-align: left;
+    }
+
+    .foto1{
+        display: none;
+    }
+    .foto2{
+        display: none;
+    }
+
+    
+    
+}
+
+@media screen and (max-width:1200px) {
+    
+    .menu{
+        margin-left: 6%;
+    }
+    
+}
+
+
+
+@media screen and (max-width:1000px) {
+    
+
+    nav ul li{
+        font-size: 1rem;
+        margin-right: 15px;
+        display: flex;
+        flex-direction: row;
+    }
+    nav ul li button{
+        width: 100px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .menu_plegable{
+        margin-left: 75%;
+    }
+    
+}
+
+
+@media screen and (max-width:900px) {
+    
+
+    .menu_plegable{
+        margin-left: 70%;
+    }
+
+    
+}
+
+
+@media screen and (max-width:700px) {
+    
+    
+    .menu_plegable{
+        margin-left: 65%;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    
+
+    .menu_plegable{
+        margin-left: 55%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .menu_plegable{
+        margin-left: 45%;
+    }
+}

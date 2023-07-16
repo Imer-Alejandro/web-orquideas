@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="/css/galeria.css">
+    <link rel="shortcut icon" href="/img/orquidea.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--libreria de transitiones-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <title>orchidys</title>
+</head>
+<body>
+    <nav>
+        <img src="/img/orquidea.png" alt="" srcset="">
+        <h2>orchidys</h2>
+        <div class="menu">
+            <ul>
+                <li><a href="/index.html">inicio</a> </li>
+                <li><a href="/galeria.html">galeria</a></li>
+                <li>
+                    <a target="_blank" href="https://wa.me/18090000000/?text=quiero%20solicitar%20asistencia" title="contacto via whatsapp">
+                        <button>contactar</button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <label class="burger" for="burger">
+            <input type="checkbox" id="burger"  onclick="DesplegarMenu_lateral(checked)">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+    </nav>
+
+    <div class="menu_plegable">
+        <ul>
+            <li>
+                <a href="/index.html">inicio</a>
+            </li>
+            <li>
+                <a href="/galeria.html">galeria</a>
+            </li>
+            <li>
+                <a target="_blank" href="https://wa.me/18090000000/?text=quiero%20solicitar%20asistencia" title="contacto via whatsapp">
+                    <button>contactar</button>
+                </a>
+            </li>
+        </ul>
+    </div>
+  
+
+    <header>
+        <h1>Galeria de orquideas</h1>
+    </header>
+
+    <section class="galeria">
+        <div class="row">
+            <div class="column">
+              <img data-aos="fade-up" alt="photo 1" src="/img/fotos-galeria/pexels-brett-sayles-2291811.jpg"/ >
+              <img data-aos="fade-up" alt="photo 2" src="/img/fotos-galeria/pexels-carissa-bongalosa-1047814.jpg"/>
+              <img data-aos="fade-up" alt="photo 3" src="/img/fotos-galeria/pexels-tuấn-kiệt-jr-2231574.jpg"/>
+              <img data-aos="fade-up" alt="photo 4" src="/img/fotos-galeria/pexels-larissa-megale-1076233.jpg"/>
+            </div>
+          
+            <div class="column">
+              <img data-aos="fade-up" alt="photo 2" src="/img/fotos-galeria/pexels-alief-baldwin-918962.jpg"/>
+              <img data-aos="fade-up" alt="photo 3" src="/img/fotos-galeria/pexels-pixabay-248005.jpg"/>
+              <img data-aos="fade-up" alt="photo 4" src="/img/fotos-galeria/pexels-pille-kirsi-763867.jpg"/>
+                  <img data-aos="fade-up" alt="photo 1" src="/img/fotos-galeria/pexels-peppytechie-5580457.jpg"/>
+            </div>
+          
+            <div class="column">
+               <img data-aos="fade-up" alt="photo 3" src="/img/fotos-galeria/pexels-karina-badura-12929321.jpg"/>
+              <img data-aos="fade-up" alt="photo 2" src="/img/fotos-galeria/pexels-vikki-10544916.jpg"/>
+              <img data-aos="fade-up" alt="photo 4" src="/img/fotos-galeria/pexels-iconcom-209752.jpg"/>
+              <img data-aos="fade-up" alt="photo 1" src="/img/fotos-galeria/pexels-claudia-barbosa-2180118.jpg"/>
+            </div>
+        
+         </div>
+    </section>
+
+    <section class="registro">
+        <h3>Registrese</h3>
+        <span>
+            registrese a nuestro voletin informativo para participar <br> de nuestros eventos, sorteo y ofertas semanales.
+        </span>
+        <br>
+        <input type="email" name="" placeholder="ingrese su coreo aqui...">
+        <button>enviar</button>
+    </section>
+
+    <footer>
+        <img src="/img/orquidea.png" alt="">
+        <h3>orchidys</h3>
+        <ul>
+            <li>Tel: (809-222-0000) - </li>
+            <li> - Correo: orchidys@gmail.com - </li>
+            <li>Dir: calle 7 #10 villa guerrero (cede principal) - </li>
+            
+        </ul>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        //codigo menu plegable
+        function DesplegarMenu_lateral(valores) {
+            if (valores == false) {
+                document.querySelector('.menu_plegable').style.display='none'
+            }else{
+                document.querySelector('.menu_plegable').style.display='block'
+            }
+        }
+      </script>
+</body>
+</html>
